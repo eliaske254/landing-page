@@ -1,0 +1,164 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+}
+.heads{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    display: flex;
+    font-size: large;
+
+}
+.hd {
+    background-color: #1F2937;
+    color: white;
+    flex-basis: auto;
+    background-color: #1F2937;
+}
+.hda{
+    display: inline-flex;
+
+}
+.h1{
+    font-weight:900;
+    font-size: 3rem;
+    line-height: 1;
+}
+.img{
+    display: flex;
+    justify-content: end;
+    /* margin-bottom: 20%; */
+    border-radius: 40px;
+    /* margin-top: 20px; */
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.intro{
+    height: 70vh;
+    padding: 30px;
+
+}
+.boxes {
+    background-color: white;
+}
+.head-text{
+   text-align: center;
+   font-size: 230%;
+
+}
+
+
+
+.content-box {
+    width: 25%;
+    padding: 10px;
+}
+
+.bluebox{
+    height: 200px;
+    border: 5px solid #3882F6;
+    display: flex;
+    border-radius: 10px;
+}
+
+.box1{
+    justify-content: center;
+    display: flex;
+    /* gap: 20px; */
+    box-sizing: content-box;
+    margin: 0 auto;
+    padding: 0%;
+
+}
+.cont{
+    background-color: hsl(0deg 0% 90%);
+    height: 250px;
+    align-items: center;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    border-radius: 10px;
+    
+}
+.sign-content{
+    background-color: #3882F6;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10%;
+    font-size: 1.5rem;
+    border: 1px solid white;
+  
+}
+
+.content-sign{
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    height: 20vh;
+}
+.footer-txt{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.p-footer{
+    color: white;
+}
+
+.quote{
+    font-style: italic;
+    font-size: 2rem;
+}
+.quote-p{
+    justify-content: end;
+    text-align: right;
+}
+.btn-signup{
+    background-color: #3882F6;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border-radius: 5%;
+    font-size: 1.5rem;
+    border: 1px solid white;
+  
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.sign-up-wrapper {
+    padding: 50px 0;
+}
